@@ -10,6 +10,7 @@
 ## npm install react-icons - to use various icons 
   - to use different icons
   - to use different logo's etc
+  - to use carousel's
 
 ## npm start
   - to start the application

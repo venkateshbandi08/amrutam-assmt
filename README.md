@@ -1,10 +1,12 @@
 # Getting Started with Create React App
 
+## npx create-react-app {your app name}
+
 ## npm install react-bootstrap
 
 ## npm install react-icons - to use various icons
 
-## npm run
+## npm start
 
 ## mobile view 
 

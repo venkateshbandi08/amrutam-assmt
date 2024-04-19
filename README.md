@@ -4,10 +4,15 @@
 ## npx create-react-app {your app name}
 
 ## npm install react-bootstrap
+ - to use buttons
+ - carousels
 
-## npm install react-icons - to use various icons
+## npm install react-icons - to use various icons 
+  - to use different icons
+  - to use different logo's etc
 
 ## npm start
+  - to start the application
 
 ## mobile view 
 

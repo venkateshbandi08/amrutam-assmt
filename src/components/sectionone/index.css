@@ -5,8 +5,8 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('https://qph.cf2.quoracdn.net/main-qimg-46886bdfc20c5cbb97202386c23b4756-pjlq');
         height: 100vh;
         background-size: cover;
-        background-blend-mode: overlay; /* Blend the gradient with the background image */
-        padding: 50px;
+        background-blend-mode: overlay; 
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -14,14 +14,14 @@
     }
     .content-container{
         background-color: rgba(49, 47, 47, 0.5);
-        padding: 30px;
+        padding: 15px;
         border-radius: 10px;
     }
     .namaste-greeting {
         color: lightgrey;
         font-family: "Roboto";
         font-weight: bold;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .sec-one-main-heading {
         color: white;
@@ -56,7 +56,7 @@
         background-image: url('https://static.vecteezy.com/system/resources/previews/027/143/390/large_2x/person-practicing-yoga-in-a-peaceful-outdoor-setting-connecting-with-nature-photo.jpg');
         height: 100vh;
         background-size: cover;
-        background-blend-mode: overlay; /* Blend the gradient with the background image */
+        background-blend-mode: overlay;
         padding: 50px;
         display: flex;
         flex-direction: column;

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media (orientation: portrait){
+    .sec-seven-container{
+        background-color: lightgoldenrodyellow;
+        padding: 30px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .stories-main-heading{
+        color: rgb(45, 112, 45);
+        font-family:"Roboto";
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .stories-cards-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .each-story-card-container{
+        background-color: white;
+        padding-bottom: 20px;
+        border-radius: 15px;
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .consult-reason{
+        background-color: lightcyan;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:"Roboto";
+        padding: 10px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding-left: 20px;
+    }
+    .profile-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .profile-section-one-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .profile-pic{
+
+    }
+    .profile-name-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .profile-image{
+        width: 50px;
+    }
+    .profile-section-two-container{
+
+    }
+    .profile-name{
+        margin-bottom: -5px;
+        margin-top: 10px;
+        font-family:"Roboto";
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .profile-address{
+        margin-top: 5px;
+        font-family:"Roboto";
+    }
+    .profile-date{
+        padding-right: 15px;
+        font-family:"Roboto";
+    }
+    .stars-container{
+        padding-left: 25px;
+    }
+    .star-style{
+        color: gold;
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .comment-container{
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .comment-heading{
+        font-family:"Roboto";
+    }
+    .comment-description{
+        font-family:"Roboto";
+    }
+    .stories-cards-carousel {
+        width: 100%;
+      }
+}
+
+
+
+@media (orientation: landscape){
+    .sec-seven-container{
+        background-color: lightgoldenrodyellow;
+        padding: 30px;
+    }
+    .stories-main-heading{
+        color: rgb(45, 112, 45);
+        font-family:"Roboto";
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .stories-cards-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .each-story-card-container{
+        background-color: white;
+        padding-bottom: 20px;
+        border-radius: 15px;
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: calc(33.33% - 20px);
+    }
+    .consult-reason{
+        background-color: lightcyan;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:"Roboto";
+        padding: 10px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding-left: 20px;
+    }
+    .profile-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .profile-section-one-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .profile-pic{
+
+    }
+    .profile-name-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .profile-image{
+        width: 50px;
+    }
+    .profile-section-two-container{
+
+    }
+    .profile-name{
+        margin-bottom: -5px;
+        margin-top: 10px;
+        font-family:"Roboto";
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .profile-address{
+        margin-top: 5px;
+        font-family:"Roboto";
+    }
+    .profile-date{
+        padding-right: 15px;
+        font-family:"Roboto";
+    }
+    .stars-container{
+        padding-left: 25px;
+    }
+    .star-style{
+        color: gold;
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .comment-container{
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .comment-heading{
+        font-family:"Roboto";
+    }
+    .comment-description{
+        font-family:"Roboto";
+    }
+    .stories-cards-carousel {
+        width: 100%;
+      }
+}

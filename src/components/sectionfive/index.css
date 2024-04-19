@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media (orientation: portrait){
+    .section-five-container{
+        background-image: url('https://amrutam.co.in/cdn/shop/products/Zeo-Malt-1-min.jpg?v=1655355103&width=600');
+        min-height: 100vh; 
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec-five-content-container{
+        background-color: rgba(49, 47, 47, 0.5);
+        min-height: 100vh;
+        background-size: cover;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-five-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-five-heading{
+        font-family:"Roboto";
+        font-weight:bold;
+        color:antiquewhite;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+}
+
+
+
+@media (orientation: landscape){
+    .section-five-container{
+        /* background-image: url('https://amrutam.co.in/cdn/shop/files/Face-Clean-Up-1-1-scaled_64ec74a8-ff47-4f54-a2e0-3af622a94bb1.jpg?v=1662372611&width=1200'); */
+        background-color: lightgray;
+        min-height: 100vh; 
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec-five-content-container{
+        background-image: url('https://amrutam.co.in/cdn/shop/products/Chawanprash-1-compressed-scaled_33c56f4a-b5b4-45e8-97a2-fe32c48da380.jpg?v=1655350346&width=600');
+        min-height: 100vh;
+        background-size: cover;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-five-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-five-heading{
+        font-family:"Roboto";
+        font-weight:bold;
+        color:antiquewhite;
+        margin-bottom: 30px;
+        font-size: 40px;
+        padding: 20px;
+        background-color: rgb(94, 83, 83);
+        border-radius: 3px;
+    }
+    .book-button{
+        color: white;
+        font-family:"Roboto";
+        font-size: 26px;
+        margin-top: 20px;
+    }
+}

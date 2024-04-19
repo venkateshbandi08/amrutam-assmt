@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media (orientation: portrait){
+    .section-one-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('https://qph.cf2.quoracdn.net/main-qimg-46886bdfc20c5cbb97202386c23b4756-pjlq');
+        height: 100vh;
+        background-size: cover;
+        background-blend-mode: overlay; /* Blend the gradient with the background image */
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .content-container{
+        background-color: rgba(49, 47, 47, 0.5);
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .namaste-greeting {
+        color: lightgrey;
+        font-family: "Roboto";
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .sec-one-main-heading {
+        color: white;
+        font-weight: bold;
+        font-family: 'Roboto';
+        margin-bottom: 30px;
+    }
+    .sec-one-description{
+        color: white;
+        font-family: 'Roboto';
+        margin-bottom: 30px;
+    }
+    .button-style{
+        color: white;
+        font-family:"Roboto";
+        padding: 10px;
+    }
+    .amrutam-name{
+        color: lightgreen;
+        font-size: 32px;
+    }
+    .ayurveda-name{
+        text-decoration: underline;
+        color: lightgoldenrodyellow;
+    }
+}
+
+
+
+@media (orientation: landscape){
+    .section-one-container {
+        background-image: url('https://static.vecteezy.com/system/resources/previews/027/143/390/large_2x/person-practicing-yoga-in-a-peaceful-outdoor-setting-connecting-with-nature-photo.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-blend-mode: overlay; /* Blend the gradient with the background image */
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .content-container{
+        background-color: rgba(49, 47, 47, 0.5);
+        padding: 50px;
+        border-radius: 10px;
+    }
+    .namaste-greeting {
+        color: lightgrey;
+        font-family: "Roboto";
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .sec-one-main-heading {
+        color: white;
+        font-weight: bold;
+        font-family: 'Roboto';
+        margin-bottom: 30px;
+    }
+    .sec-one-description{
+        color: white;
+        font-family: 'Roboto';
+        margin-bottom: 30px;
+    }
+    .button-style{
+        color: white;
+        font-family:"Roboto";
+        padding: 10px;
+    }
+    .amrutam-name{
+        color: lightgreen;
+        font-size: 32px;
+    }
+    .ayurveda-name{
+        text-decoration: underline;
+        color: lightgoldenrodyellow;
+    }
+}
+
